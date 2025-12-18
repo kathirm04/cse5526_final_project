@@ -1,0 +1,47 @@
+# -------------------------
+# Python / PyTorch
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pt
+*.pth
+*.ckpt
+
+# Keep ONLY your final submitted model
+!models/res_net_50_mlp.pth
+
+# -------------------------
+# Virtual environment
+# -------------------------
+venv/
+ENV/
+env/
+.venv/
+
+# -------------------------
+# Inference Outputs
+# -------------------------
+predictions.csv
+
+# -------------------------
+# Jupyter / Colab
+# -------------------------
+*.ipynb_checkpoints/
+.colab/
+
+# -------------------------
+# System / Editor Files
+# -------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
