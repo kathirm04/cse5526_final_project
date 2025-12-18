@@ -30,6 +30,7 @@ Instructions for installing dependencies and running inference
 python3 -m venv venv
 
 source venv/bin/activate (mac/Linux)
+
 . .\venv\Scripts\activate (Windows)
 
 ## 2. Install dependencies
